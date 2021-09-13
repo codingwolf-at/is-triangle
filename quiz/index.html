@@ -5,18 +5,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Is Triangle? | Quiz</title>
-  <link rel="stylesheet" href="./quiz.css">
+  <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
   <nav id="nav-bar">
-    <a href="#" class=".nav-pill">Is Triangle?</>
-    <a href="quiz.html" class=".nav-pill">Quiz</a>
+    <a href="../index.html" class=".nav-pill">Is Triangle?</>
+    <a href="#" class=".nav-pill">Quiz</a>
     <a href="#" class=".nav-pill">Hypotenuse</a>
     <a href="#" class=".nav-pill">Area</a>
   </nav>
   <div class="container">
     <h1>Triangle Quiz</h1>
-    <form action="">
+    <form id="triangle-quiz" onsubmit="return false">
       <div class="quiz-container">
         <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
         <label>
@@ -51,5 +51,7 @@
     </form>
     <h2 id="output-heading"></h2>
   </div>
+
+  <script src="./app.js"></script>
 </body>
 </html>
