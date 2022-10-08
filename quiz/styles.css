@@ -33,7 +33,7 @@ body {
 .container {
   padding: 1rem;
   width: 50vw;
-  height: 60vh;
+  /* height: 60vh; */
   margin: 1rem auto;
   color: var(--primary-light);
 }

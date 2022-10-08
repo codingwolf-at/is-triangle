@@ -17,6 +17,7 @@
   <div class="container">
     <h1>Triangle Quiz</h1>
     <form id="triangle-quiz" onsubmit="return false">
+
       <div class="quiz-container">
         <p>What is the third angle for the triangle where angle1 = 45° and angle2 = 45°?</p>
         <label>
@@ -32,6 +33,7 @@
           90°
         </label>
       </div>
+
       <div class="quiz-container">
         <p>If a triangle has an angle of 90 degrees, what is it called?</p>
         <label>
@@ -47,6 +49,55 @@
           right-angled
         </label>
       </div>
+
+      <div class="quiz-container">
+        <p>If two sides of a triangle are equal, what it is called?</p>
+        <label>
+          <input type="radio" name="third-question" id="" value="isosceles">
+          Isosceles Triangle
+        </label>
+        <label>
+          <input type="radio" name="third-question" id="" value="Equilateral">
+          Equilateral Triangle
+        </label>
+        <label>
+          <input type="radio" name="third-question" id="" value="Scalene">
+          Scalene Triangle
+        </label>
+      </div>
+
+      <div class="quiz-container">
+        <p>A triangle whose all the sides are of different measurements is called?</p>
+        <label>
+          <input type="radio" name="fourth-question" id="" value="isosceles">
+          Isosceles Triangle
+        </label>
+        <label>
+          <input type="radio" name="fourth-question" id="" value="Equilateral">
+          Equilateral Triangle
+        </label>
+        <label>
+          <input type="radio" name="fourth-question" id="" value="Scalene">
+          Scalene Triangle
+        </label>
+      </div>
+
+      <div class="quiz-container">
+        <p>The sum of all exterior angles of any triangle is equal to?</p>
+        <label>
+          <input type="radio" name="fifth-question" id="" value="180">
+          180°
+        </label>
+        <label>
+          <input type="radio" name="fifth-question" id="" value="360">
+          360°
+        </label>
+        <label>
+          <input type="radio" name="fifth-question" id="" value="260">
+          260°
+        </label>
+      </div>
+
       <button id="submit-btn">Submit Form</button>
     </form>
     <h2 id="output-heading"></h2>
