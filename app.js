@@ -5,9 +5,9 @@ const outputHeading = document.querySelector("#output-heading");
 isTriangleButton.addEventListener("click", isTriangleHandler);
 
 function isTriangleHandler() {
-  if (Number(angleInput[0].value) < 0 
-    || Number(angleInput[1].value) < 0 
-    || Number(angleInput[2].value) < 0
+  if (Number(angleInput[0].value) <= 0 
+    || Number(angleInput[1].value) <= 0 
+    || Number(angleInput[2].value) <= 0
     || angleInput[0].value === ""
     || angleInput[1].value === ""
     || angleInput[2].value === "") {
