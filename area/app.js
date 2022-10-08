@@ -6,9 +6,12 @@ const outputHeading = document.querySelector("#output-heading");
 const calculateArea = () => {
   const base = Number(baseInput.value);
   const height = Number(heightInput.value);
-  const area = 1/2*(base*height);
-  outputHeading.innerText = `The area of the triangle is ${area} square units`
-  console.log(area)
+  if (base > 0 && height > 0) {
+    const area = 1/2*(base*height);
+    outputHeading.innerText = `The area of the triangle is ${area} square units`;
+  } else {
+    alert('Please enter positive non-zero value');
+  }
 }
 
 checkAreaBtn.addEventListener("click", calculateArea)
